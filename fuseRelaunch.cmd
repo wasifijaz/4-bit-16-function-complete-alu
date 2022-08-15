@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/dell/Desktop/ALU/nandgate_isim_beh.exe" -prj "C:/Users/dell/Desktop/ALU/nandgate_beh.prj" "work.nandgate" "work.glbl" 

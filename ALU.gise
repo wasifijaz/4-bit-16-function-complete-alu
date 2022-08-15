@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="ALU.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Test1_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="andgate_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="andmod_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="andmod_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="comparator_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparator_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="evenparity_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fulladder_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="fulladder_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="fulladder_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fulladder_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mainalu_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="maintest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="maintest_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multiplier_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="nandgate_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="nandgate_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="nandgate_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="nandgate_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="norgate_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="norgate_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="orgate_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testdecoder_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testdecoder_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testmain_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testmain_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="xorgate_stx_beh.prj"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1559026633" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1559026633">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1559410346" xil_pn:in_ck="382028700588053988" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1559410346">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="EVEN.v"/>
+      <outfile xil_pn:name="abc.v"/>
+      <outfile xil_pn:name="andgate.v"/>
+      <outfile xil_pn:name="comparator.v"/>
+      <outfile xil_pn:name="decoder.v"/>
+      <outfile xil_pn:name="decrementor.v"/>
+      <outfile xil_pn:name="evenparity.v"/>
+      <outfile xil_pn:name="fulladder.v"/>
+      <outfile xil_pn:name="incrementor.v"/>
+      <outfile xil_pn:name="mainalu.v"/>
+      <outfile xil_pn:name="maintest.v"/>
+      <outfile xil_pn:name="multiplier.v"/>
+      <outfile xil_pn:name="nandgate.v"/>
+      <outfile xil_pn:name="norgate.v"/>
+      <outfile xil_pn:name="notgate.v"/>
+      <outfile xil_pn:name="oddparity.v"/>
+      <outfile xil_pn:name="orgate.v"/>
+      <outfile xil_pn:name="shifter.v"/>
+      <outfile xil_pn:name="subtractor.v"/>
+      <outfile xil_pn:name="testdecoder.v"/>
+      <outfile xil_pn:name="xnormod.v"/>
+      <outfile xil_pn:name="xorgate.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1559410218" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8032270584447800505" xil_pn:start_ts="1559410218">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1559410218" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3501302441924623447" xil_pn:start_ts="1559410218">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1559026633" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-4002862081837973628" xil_pn:start_ts="1559026633">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1559410349" xil_pn:in_ck="382028700588053988" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1559410349">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="EVEN.v"/>
+      <outfile xil_pn:name="abc.v"/>
+      <outfile xil_pn:name="andgate.v"/>
+      <outfile xil_pn:name="comparator.v"/>
+      <outfile xil_pn:name="decoder.v"/>
+      <outfile xil_pn:name="decrementor.v"/>
+      <outfile xil_pn:name="evenparity.v"/>
+      <outfile xil_pn:name="fulladder.v"/>
+      <outfile xil_pn:name="incrementor.v"/>
+      <outfile xil_pn:name="mainalu.v"/>
+      <outfile xil_pn:name="maintest.v"/>
+      <outfile xil_pn:name="multiplier.v"/>
+      <outfile xil_pn:name="nandgate.v"/>
+      <outfile xil_pn:name="norgate.v"/>
+      <outfile xil_pn:name="notgate.v"/>
+      <outfile xil_pn:name="oddparity.v"/>
+      <outfile xil_pn:name="orgate.v"/>
+      <outfile xil_pn:name="shifter.v"/>
+      <outfile xil_pn:name="subtractor.v"/>
+      <outfile xil_pn:name="testdecoder.v"/>
+      <outfile xil_pn:name="xnormod.v"/>
+      <outfile xil_pn:name="xorgate.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1559410352" xil_pn:in_ck="382028700588053988" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="574022617390338561" xil_pn:start_ts="1559410349">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="nandgate_beh.prj"/>
+      <outfile xil_pn:name="nandgate_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1559410352" xil_pn:in_ck="-1684592812233986690" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7934337867906935484" xil_pn:start_ts="1559410352">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="nandgate_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

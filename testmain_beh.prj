@@ -1,0 +1,6 @@
+verilog work "subtractor.v"
+verilog work "fulladder.v"
+verilog work "comparator.v"
+verilog work "mainalu.v"
+verilog work "testmain.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
